@@ -782,6 +782,10 @@ footer .copyright {
   margin: 0;
 }
 
+.map figure {
+  padding-bottom: 45.5%;
+}
+
 .contact-section .content-wrapper h2 {
   width: 80%;
 }
@@ -910,6 +914,10 @@ aside .content-wrapper .form {
    width: 96.25%
 }
  
+
+.map figure {
+  padding-bottom: 37.5%;
+}
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
