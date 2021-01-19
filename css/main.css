@@ -381,13 +381,27 @@ input[type=button] {
 }
 
 .feature p {
+  text-align: center;
   margin: 0;
 }
+
+
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+  
+}
+
+p.fontawesome-icon {
+  text-align: center;
+}
+
 
 .features-item-description  {
   margin: 0 10px;
   text-align: center;
 }
+
 
 
 /*****Retreat-Reviews Section******/
@@ -703,10 +717,15 @@ aside .content-wrapper .form {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   flex-basis: 50%;
 
 }
+
+
+
+
+
 
 .features .features-item-description {
   width: 63%;
@@ -843,7 +862,7 @@ h3,
  }
 
 p {
-  font-size: 1.125em;
+  font-size: 1.125rem;
   line-height: 1.333;
 }
 
