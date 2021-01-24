@@ -109,6 +109,8 @@ body {
 ul,
  ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
  }
 
 
@@ -117,7 +119,7 @@ ul,
 a {
   color: #e2e3ed;
   text-decoration: none;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: bold;
   text-transform: uppercase;
 
@@ -130,6 +132,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875rem;
   font-weight: 500;
+  margin: 0;
 }
 
 
@@ -221,16 +224,18 @@ header nav ul {
   justify-content: space-around;
   width: 100%;
   padding-left: 0;
+  transition: 2s;
 
   /*margin: 16px 0 20px 0;*/
 }
 
-header nav ul a:hover {
 
+header nav ul a {
+  transition: 0.5s;
+}
+
+header nav ul a:hover {
  color: #527158;
- transition: color 0.25s;
- transition-timing-function: ease-out;
- transition-duration: 1s;
  
 }
 
@@ -338,10 +343,11 @@ aside .form {
   margin-top: 30px; 
 }
 
+/*
 aside input {
-  padding: 5px 15px;
-  margin: 5px 0px 10px 0px;
-}
+  padding: 16px;
+  /*margin: 5px 0px 10px 0px;*/
+
 
 input[type=text] {
   box-sizing: border-box;
@@ -394,7 +400,6 @@ input[type=button] {
 
 .features h2 {
   margin-bottom: 60px;
-  /*margin-right: 15px;*/
 }
 
 
@@ -665,10 +670,14 @@ h2 {
   line-height: 1.333;
 }
 
-h3,
+h3
  {
   font-size: 1.5em;
   line-height: 1.25em;
+}
+
+a {
+  font-size: 1.25rem;
 }
 
 /* Header */
@@ -695,8 +704,9 @@ header nav {
 header nav ul {
   justify-content: space-between;
   font-size: 1.125rem;
- 
 }
+
+
 
 .header-divider {
     display: none; 
@@ -733,7 +743,7 @@ aside .content-wrapper .form {
 
 /*features*/
 
-.feature h2 {
+.features h2 {
   margin-bottom: 20px;
 }
 
@@ -748,11 +758,15 @@ aside .content-wrapper .form {
 
 
 
-
-
-
 .features .features-item-description {
-  width: 63%;
+  width: 62%;
+}
+
+
+
+p.fontawesome-icon {
+  margin: 0;
+  font-size: 0.875rem;
 }
 
 /* Reviews */
@@ -769,7 +783,7 @@ aside .content-wrapper .form {
 
 .reviews article figure,
 .reviews article div {
-  width: 48.5%;
+  width: 49%;
 }
 
 .reviews h3 {
@@ -886,7 +900,7 @@ footer .copyright {
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2.25em;
 }
 
 h3,
@@ -897,6 +911,10 @@ h3,
 p {
   font-size: 1.125em;
   line-height: 1.333;
+}
+
+header nav ul {
+  font-size: 1.25rem;
 }
 
 /* Header-Footer */
@@ -916,7 +934,7 @@ footer h4 {
 /*hero-area*/
 
 .hero-area {
-  min-height: 700px;
+  min-height: 600px;
 }
 
 
@@ -932,7 +950,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 27%;
+  width: 30%;
 
 }
 
@@ -952,13 +970,14 @@ aside .content-wrapper .form {
 /* Reviews */
 
 .reviews h2 {
+
   padding-bottom: 50px;
+  
 }
 
 .reviews article div {
-  width: 46%;
+  width: 42%;
 }
-
 
 
 
