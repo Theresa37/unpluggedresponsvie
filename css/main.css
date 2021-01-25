@@ -466,7 +466,7 @@ p.fontawesome-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: row wrap;
+  flex-flow: row wrap;
   background-color: #527158;
 }
 
@@ -799,7 +799,7 @@ footer .content-wrapper {
 }
 
 
-.footer-content {
+ .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -845,7 +845,6 @@ footer .copyright {
 
 .mission-content p {
   width: 45%;
-  margin: 0;
 }
 
 .map figure {
@@ -864,7 +863,7 @@ footer .copyright {
 
 
 .contact-content h4 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 /*========================================
                  FAQ PAGE          
@@ -885,7 +884,7 @@ footer .copyright {
 .faq h4,
   .faq p {
     font-size: 0.875em;
-    line-height: 1.285;
+    line-height: 1.125;
   }
 
 } 
@@ -989,24 +988,30 @@ aside .content-wrapper .form {
    ========================================================================== */
 .mission h2,
 .contact-section .content-wrapper h2 {
-   width: 96.25%
+   width: 95%;
+   font-size:  3em;
 }
  
 
 .map figure {
   padding-bottom: 37.5%;
 }
+
+.contact-content h4 {
+  font-size: 1.875rem;
+}
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
 .faq h2 {
   width: 100%;
+  font-size: 3rem;
 }
  
 .faq h4,
   .faq p {
     font-size: 1.125em;
-    line-height: 1.333;
+    line-height: 1;
   }
 
 
